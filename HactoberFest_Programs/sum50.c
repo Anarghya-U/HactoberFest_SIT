@@ -12,7 +12,7 @@ int main(){
 	for(i=0;i<100;i++){
 		if(i%10==0)
 			printf("\n");
-		printf("%d\t",arr[i]);
+		printf("%d\t ",arr[i]);
 	}
 	int j;
 	for(i=0;i<100;i++){
