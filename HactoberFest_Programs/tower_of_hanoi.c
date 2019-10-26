@@ -2,7 +2,7 @@
 
 void move(int n,char src,char dest,char spare){
 	if(n==1){
-		printf("\nMove disk from %c to %c.",src,dest);
+		printf("\n Move disk from %c to %c.",src,dest);
 	}
 	else{
 		move(n-1,src,spare,dest);
