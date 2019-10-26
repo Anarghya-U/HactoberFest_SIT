@@ -27,6 +27,6 @@ int main(){
 		}
 	}
 	
-	printf("The second largest element is: %d\n",sec_large);
+	printf("The second largest element is : %d\n",sec_large);
 	return 0;
 }
