@@ -4,7 +4,7 @@ int main(){
 	int i,num,flag=0,count=0,start,end;
 	printf("\nEnter starting number: ");
 	scanf("%d",&start);
-	printf("\nEnter ending number: ");
+	printf("\nEnter the ending number: ");
 	scanf("%d",&end);
 	for(num=start;num<end;num++){
 		if (num==0||num==1){
