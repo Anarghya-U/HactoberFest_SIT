@@ -26,7 +26,6 @@ int main(){
 		}
 		
 	}
-	reverse(str,0,i-1);
 	puts(str);
 	return 0;
 }
