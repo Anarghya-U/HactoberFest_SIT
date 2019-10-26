@@ -12,11 +12,14 @@ int main(){
 		/*
 		Write the code to delete num no. of characters from position pos in string text.
 		*/
+		if(i==pos){
+		i=i+1;		
+	}
 		new_str[j++]=text[i++];
-		
 	}
 	new_str[j]=NULL;
 	printf("\nThe new string is: ");
 	puts(new_str);
 	return 0;
+
 }
