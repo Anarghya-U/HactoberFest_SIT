@@ -4,7 +4,7 @@
 int main()
 {
     int rows, coef = 1, space, i, j;
-    printf("Enter number of rows: ");
+    printf("Enter number of rows:  ");
     scanf("%d",&rows);
     for(i=0; i<rows; i++)
     {
